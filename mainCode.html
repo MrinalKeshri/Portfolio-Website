@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEB CA-2</title>
+    <style>
+        .upper-container{
+            display: grid;
+            place-items: center;
+            background-color:rgb(194, 143, 67);
+            grid-template-columns: 350px 600px 500px;
+            grid-row: 400px;
+            padding: 20px;
+        }
+        .grid-item2{
+            grid-row: 1 / 2;
+            grid-column:1 / 2 ;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .grid-item1{
+            grid-row: 1 / 2;
+            grid-column: 2 / 3;
+        }
+        .grid-item4{
+            grid-row: 1 / 2;
+            grid-column: 3 / 4;
+        }
+        .middle-container{
+            display:grid;
+            place-items: center;
+            grid-template-columns: 400px 400px 400px;
+            grid-row: 100px 100px 400px;
+        }
+        .middle-grid-item1{
+            display: flex;
+            top: 0px;
+            grid-column: 1 / 2;
+            grid-row: 3 / 4;
+        }
+        .middle-grid-item2{
+            display: flex;
+            grid-column: 2 / 3;
+            grid-row: 3 / 4;
+        }
+        .middle-grid-item3{
+            display: flex;
+            grid-column: 3 / 4;
+            grid-row: 3 / 4;
+        }
+        .middle-grid-item4{
+            display: flex;
+            grid-column: 2 / 3;
+            grid-row: 1 / 2;
+        }
+        .mgi11{
+            display: flex;
+            grid-column: 1 / 2;
+            grid-row: 2 / 3;
+        }
+        .mgi12{
+            display: flex;
+            grid-row: 2 / 3;
+            grid-column: 2 / 3;
+        }
+        .mgi13{
+            display: flex;
+            grid-column: 3 / 4;
+            grid-row: 2 / 3;
+        }
+    </style>
+</head>
+<body>
+    <div class="upper-container">
+    
+    <span class="grid-item1"><H1 style="text-align: center;
+    color: whitesmoke;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:50px;">MRINAL KESHRI</H1>
+    <H4 style="text-align: center;
+    color: whitesmoke;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;">Aspiring Web Developer</H4><br>
+    </span>
+    <img class="'grid-item2" src="lpu_logo2.jpeg" alt="LPU_logo" style="height: 150px;
+     width: 150px;
+     border-radius: 50%;">
+
+    <img class="'grid-item4" src="IMG_20240702_110009_618.jpg" alt="Mrinal Keshri"  style="height: 150px;
+     width: 150px;
+     border-radius: 150px;">
+
+    </div>
+
+    <hr style="opacity: 0;">
+
+    <div class="middle-container" style="border:4px solid rgb(194, 143, 67);
+    background-color: ivory;">
+    <h3 class="middle-grid-item4" style="text-align: center;
+     color: rgb(194, 143, 67);"><u>Skills</u></h3>
+    <p class="mgi11" ><u><b>Technical Skills:-</b></u></p>
+    <div class="middle-grid-item1">
+    <ul type="disc">
+        <li>C++</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>MySql</li>
+        <li>PowerBi</li><br>
+    </ul>
+    </div>
+    <p class="mgi12"><u><b>Strengths:-</b></u></p>
+    <div class="middle-grid-item2">
+    <ul>
+        <li>Good Communication Skills</li>
+        <li>Adaptable</li>
+        <li>Team Player</li>
+        <li>Good Problem Solving Skills</li>
+        <li>Analytical Thinking</li><br>
+    </ul>
+    </div>
+    <p class="mgi13"><u><b>Hobbies:-</b></u></p>
+    <div class="middle-grid-item3">
+    <ul>
+        <li>Listening Music</li>
+        <li>Reading Books</li>
+        <li>Automobile Enthusiast</li>
+        <li>Playing Video Games</li>
+        <li>Playing Football & Volleyball</li>
+    </ul>
+    </div>
+    </div>
+
+    <hr  style="opacity: 0;">
+
+    <div style="border: 5px solid rgb(194, 143, 67);
+    background-color: ivory;">
+    <h3 style="text-align: center;
+    color: rgb(194, 143, 67);"><u>Qualifications</u></h3>
+    <table border="2px" width="90%" align="center">
+        <tr>
+            <th>Education</th>
+            <th>Year of Completion</th>
+        </tr>
+        <tr>
+            <td style="text-align: center;">High School</td>
+            <td style="text-align: center;">2021</td>
+        </tr>
+        <tr>
+            <td style="text-align: center;">Senior Sec. School</td>
+            <td style="text-align: center;">2023</td>
+        </tr>
+        <tr>
+            <td style="text-align: center;">Bachelor Of Computer Applications</td>
+            <td style="text-align: center;">2026</td>
+        </tr>
+    </table>
+    <br>
+    </div>
+
+    <hr  style="opacity: 0;">
+    <h3><u></u></h3>
+    <form style="text-align: justify;
+    background-color: ivory;">
+        <fieldset>
+        <legend style="color:rgb(194, 143, 67);
+        border-color: rgb(194, 143, 67);"><b>For Enquiry</b></legend>
+        <label for="Name">Enter Your Name</label>&nbsp;
+        <input type="text" id="T1" name="Name"><br>
+
+        <label for="Email">Enter Your Email</label>&nbsp;
+        <input type="email" id="T2" name="Email"><br>
+        
+        
+        <textarea id="A1" name="Msg" rows="4" cols="50">Any Message for Mrinal Keshri?</textarea><br>
+
+        <input type="submit" id="Submit" name="SUBMIT"><br>   
+    </fieldset>
+    </form>
+
+    <hr style="opacity: 0;">
+
+    <div style="background-color:  rgb(194, 143, 67);">  
+    <h4 style="text-align: center;
+    color: whitesmoke;"><b><U>Contact Details</U></h4>
+        <p style="text-align: center;"><a href="mailto:mrinalkeshri113421@gmail.com">Email</a>
+            <a href="https://www.linkedin.com/in/mrinal--keshri?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BCDQFn6cvRUKxGq%2FmTWSa4Q%3D%3D">LinkedIn</a><br>
+            
+            <b><Address style="text-align: center;"><u>Address:</u><br>
+            Bokaro Steel City,
+            Jharkhand,<br>
+            India.<br>
+            827003</Address></b><br>
+    </div>
+
+
+</body>
+</html>
